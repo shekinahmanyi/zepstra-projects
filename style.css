@@ -1,0 +1,54 @@
+*{
+    font-weight: bold;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    font-size: large;
+    text-align: right;
+    padding: 10px;
+    flex-grow: 1;
+    width: 95vw;
+    margin: auto;
+}
+nav > div {
+text-align: left;
+height: 40vh;
+padding: 10px;
+top: 0;
+}
+#invoice-sec{
+    text-align: right;
+    font-size: large;
+    width: 95vw;
+    padding: 20px;
+}
+#to-sec > div{
+    padding: 10px;
+    background-color:lightgray;
+    margin: 10px;
+}
+#to-sec > div >p{
+      padding: 10px;
+      margin: 10px;
+}
+table,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+    padding: 30px;
+    margin: 20px;
+    width: 95vw;
+}
+ th{
+   text-align: center;
+   background-color: lightgray;
+}
+td{
+    text-align: right;
+}
+#table-sec > h2{
+    text-align: right;
+    width: 95vw;
+    padding: 10px;
+}
+
